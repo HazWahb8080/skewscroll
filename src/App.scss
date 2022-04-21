@@ -1,0 +1,10 @@
+::-webkit-scrollbar { 
+  display: none;
+}
+.grid-wrap { 
+  display: grid;
+  grid-template-columns: repeat(3,20%);
+  gap: 5%;
+  justify-content: center;
+  margin: 0 auto;
+}
